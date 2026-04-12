@@ -1,0 +1,44 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:@gnaudio/jabra-js@^4.4.4": "4.4.4",
+    "npm:@iam4x/reconnecting-websocket@^1.4.3": "1.4.3_typescript@5.9.3"
+  },
+  "npm": {
+    "@gnaudio/jabra-js@4.4.4": {
+      "integrity": "sha512-AEXL4gmnlyYi/IGI2QvDgrotbnEzFgZkmw7Ih4h9BC5dib1chFHBPuaqGOe9GZ9h3d217qgx/QlYjT0UldM1uw==",
+      "dependencies": [
+        "pure-uuid",
+        "rxjs"
+      ]
+    },
+    "@iam4x/reconnecting-websocket@1.4.3_typescript@5.9.3": {
+      "integrity": "sha512-8luLOkQzBj8biYgQzhfBT65d4MVkarPuv4AjY02xf3dPjwEGC+FdBB8weVe+42D47yStwGLiS1YShJ4BxL1Zrg==",
+      "dependencies": [
+        "typescript"
+      ]
+    },
+    "pure-uuid@1.8.1": {
+      "integrity": "sha512-PIwHXU7NZb/wTBwUfzCSjI85tfwx6DQOm74sRLtNLH8KHsFZEvAQbBQdz7E5ij8SNSv9WGdQPWiiM6NpNIeNfA=="
+    },
+    "rxjs@7.8.2": {
+      "integrity": "sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==",
+      "dependencies": [
+        "tslib"
+      ]
+    },
+    "tslib@2.8.1": {
+      "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="
+    },
+    "typescript@5.9.3": {
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "bin": true
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@gnaudio/jabra-js@^4.4.4",
+      "npm:@iam4x/reconnecting-websocket@^1.4.3"
+    ]
+  }
+}

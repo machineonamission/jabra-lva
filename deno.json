@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@gnaudio/jabra-js": "npm:@gnaudio/jabra-js@^4.4.4",
+    "@iam4x/reconnecting-websocket": "npm:@iam4x/reconnecting-websocket@^1.4.3"
+  }
+}
