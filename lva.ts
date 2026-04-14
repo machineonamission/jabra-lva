@@ -36,6 +36,10 @@ export class LVA extends events.EventEmitter {
     this.ws.addEventListener("error", (event: Event) => {
       console.error("LVA WebSocket error:", event);
     });
+
+    this.addListener("command", (command) => {
+      this.send_command(command);
+    })
   }
 
   send_command(command: models.LVACommandType) {
